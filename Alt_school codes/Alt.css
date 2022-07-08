@@ -1,0 +1,319 @@
+body{
+    background-image: url(./laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*nav-bar*/
+.bg{
+    background: gainsboro;
+}
+.links li{
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+}
+.links, a{
+    float: right;
+    margin-right: 28px;
+    margin-top: -5px;
+    font-weight: bold;
+    color: green;
+}
+a:hover{
+    color: black;
+}
+.cont, .cont1, .cont2, .cont3{
+    display: none;
+    position: relative;
+}
+ul li:hover .cont, ul li:hover .cont1, ul li:hover .cont2,ul li:hover .cont3{
+    display: block;
+    position: absolute;
+    margin-left: -2.8vw;
+    color:  black;
+}
+ul li:hover .cont,ul li:hover .cont1,ul li:hover .cont2, ul li:hover .cont3{
+    display: block;
+    margin-top: 20px; 
+}
+
+/*section*/
+.container{
+    width: 600px;
+    height: 450px;
+    border: 2px solid grey;
+    box-shadow: -10px -10px 20px #fff;
+    margin-top: 30px;
+    margin: 25px;
+    border-radius: 3px;
+}
+.Name{
+    color: green;
+    text-align: center;
+}
+.sentence{
+    margin-top: -90px;
+    background-color: #fff;
+    margin-left: 110px;
+}
+.diploma{
+    width: 400px;
+    height: 200px;
+    margin: 50px;
+    background-color: #fff;
+    border-radius: 90px;
+}
+.goal{
+    text-align: center;
+}
+#speech{
+    background-color: #fff;
+    padding: 10px;
+}
+.line1{
+    width: 600px;
+    height: 100px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+/*Aside*/
+.container-1{
+    width: 750px;
+    height: 620px;
+    border: 1.5px solid gray;
+    margin-top: -320px;
+    float: right;
+    margin-right: 50px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: -5px -5px 10px grey;
+}
+.education{
+    width: 90px;
+    border: 1px solid grey;
+    padding: 4px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+.university{
+    margin: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: grey;
+    color: white;
+}
+.job{
+    width: 140px;
+    border: 1px solid grey;
+    padding: 6px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+.job-exp{
+    display: inline-block;
+    margin: 5px;
+    background-color: grey;
+    color: black;
+    border: 2px solid gainsboro;
+}
+.skills{
+    width: 70px;
+    border: 1px solid grey;
+    padding: 3px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+.skill{
+    display: inline-block;
+}
+.skill{
+    background-color: black;
+    border: 2px solid gainsboro;
+    margin: 10px;
+    color: white;
+}
+.hobby{
+    width: 70px;
+    border: 1px solid grey;
+    padding: 3px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+/* contact page*/
+.form{
+    width: 300px;
+    height: 450px;
+    background-color: #fff;
+    margin: auto;
+    padding:70px;
+    border-radius: 10px;
+    border: 1px solid green;
+    margin-left:350px;
+}
+.contact-form{
+    color: green;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -30px;
+}
+.ctn-inp{
+    width: 340px;
+    height: 25px;
+    background: transparent;
+    border-top: 1px #ff7200;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+}
+.btn{
+    margin-left: 120px;
+}
+/* Registration page*/
+.registration{
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    margin: auto;
+    border: 1px solid green;
+    margin-left: 250px ;
+}
+.reg-form{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    color: cornflowerblue;
+}
+.reg-inp{
+  width: 340px;
+  height: 25px;
+  background: transparent;
+  border-top: 1px #ff7200;
+  border-left: none;
+  border-right: none;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-left: 70px;
+}
+#sub{
+    margin-left: 200px;
+}
+/*Login page*/
+.form-1{
+    width: 300px;
+    height: 250px;
+    background-color: #fff;
+    margin: auto;
+    padding:70px;
+    border-radius: 10px;
+    border: 1px solid green;
+    margin-left: 360px;
+    
+}
+.btnn{
+    margin-left: 120px;
+}
+.login-form{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: -13px;
+    color: green;
+}
+.sign{
+    font-size: 20px;
+    text-align: center;
+}
+.sign-in{
+    margin-top: -1px;
+    text-decoration: none;
+    color: blue;
+}
+/*Calculator*/
+.calculator{
+    width: 300px;
+    height: 450px;
+    background-color: black;
+    border: 1px solid black;
+    margin-left: 400px; 
+    border-radius: 10px;
+}
+.calc{
+    margin: 10px;
+}
+#display{
+    width: 250px;
+    justify-content: center;
+    height: 35px;
+    margin-left: 10px;
+}
+.btndesign{
+    display: inline-flex;
+     flex-wrap: wrap;
+     width: 50px;
+     height: 50px;
+     margin-left: 10px;
+     border-radius: 50px;
+     color: white;
+     background-color: grey;
+     font-size: 15px;
+     
+}
+.btndesign0{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 112px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: grey;
+    color: white;
+}
+.btndesign1{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50px;
+    color: white;
+    background-color: orange;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btndesign2{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50px;
+    color: white;
+    background-color: wheat;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
